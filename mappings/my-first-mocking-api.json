@@ -1,0 +1,10 @@
+{
+	"request": {
+		"method": "GET",
+		"url": "/welcome"
+	},
+	"response": {
+		"status": "201",
+		"body": "Welcome to WireMocking!"
+	}
+}

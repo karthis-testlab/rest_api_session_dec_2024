@@ -1,0 +1,13 @@
+{
+	"request": {
+		"method": "GET",
+		"url": "/v1/servicenow/incident"
+	},
+	"response": {
+		"status": "200",
+		"headers": {
+			"Content-Type": "application/json"
+		},
+		"bodyFileName": "all-incidents-record-mock-response.json"		
+	}
+}

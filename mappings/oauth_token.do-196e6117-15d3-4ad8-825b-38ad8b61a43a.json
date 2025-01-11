@@ -1,0 +1,33 @@
+{
+  "id" : "196e6117-15d3-4ad8-825b-38ad8b61a43a",
+  "name" : "oauth_token.do",
+  "request" : {
+    "url" : "/oauth_token.do",
+    "method" : "POST",
+    "bodyPatterns" : [ {
+      "equalTo" : "grant_type=password&client_id=069fe164bfa296100535f9db67ee0f8a&client_secret=3%23%3Fj%5DHM%26vg&username=admin&password=vW0eDfd%2BA0V-",
+      "caseInsensitive" : false
+    } ]
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"access_token\":\"x017E3fA1VPHcuAEpJcrFosHBYoFIF3IlG1W5S8-EYjTBzLQ9tEAS_GVbvSJRB9YJH1a1DWTbwvSz-K-vmLD8A\",\"refresh_token\":\"Vid74-73_xgPuy-LK1-hpFlvrhTZw0qJiotx_9Kf79UqMzuQzJd1VN28uKEfsnI0fsL-um8UtrIn4HwzzXEjmg\",\"scope\":\"\",\"token_type\":\"Bearer\",\"expires_in\":1799}",
+    "headers" : {
+      "Keep-Alive" : "timeout=70",
+      "Server" : "ServiceNow",
+      "X-Content-Type-Options" : "nosniff",
+      "X-Transaction-ID" : "a8981199830b",
+      "Server-Timing" : "sem_wait;dur=0, sesh_wait;dur=0",
+      "X-Is-Logged-In" : "false",
+      "Pragma" : "no-cache",
+      "Date" : "Sat, 11 Jan 2025 07:26:35 GMT",
+      "Strict-Transport-Security" : "max-age=63072000; includeSubDomains",
+      "Cache-Control" : "no-store",
+      "Set-Cookie" : [ "JSESSIONID=27CBDD0B5CBD82E6384FF9D0E4F21CFA; Path=/; HttpOnly; SameSite=None; Secure", "glide_user=; Max-Age=0; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; Secure; HttpOnly; SameSite=None; Secure", "glide_user_session=; Max-Age=0; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; Secure; HttpOnly; SameSite=None; Secure", "glide_user_route=glide.8285a2ec5d0897db3a753235b34d0050; Max-Age=2147483647; Expires=Thu, 29-Jan-2093 10:40:42 GMT; Path=/; Secure; HttpOnly; SameSite=None; Secure", "glide_node_id_for_js=14399d80fb85d4daab2a48b202d0e9f69b61c793e9c6b7b174d5c238433516b2; Path=/; Secure; SameSite=None; Secure" ],
+      "Content-Type" : "application/json;charset=utf-8"
+    }
+  },
+  "uuid" : "196e6117-15d3-4ad8-825b-38ad8b61a43a",
+  "persistent" : true,
+  "insertionIndex" : 19
+}
